@@ -1,4 +1,4 @@
-package com.gms.userserver;
+package com.gms.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
