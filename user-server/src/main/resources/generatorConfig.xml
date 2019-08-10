@@ -9,8 +9,8 @@
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
         <!--需要配置数据库连接-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/hhxx?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/hhxx?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true&amp;nullCatalogMeansCurrent=true"
                         userId= "root"
                         password= "root">
 
@@ -32,12 +32,12 @@
         </sqlMapGenerator>
 
         <!--指定dao接口生成的位置-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="cn.gms.user.dao"  targetProject="./src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.gms.user.dao"  targetProject="./src/main/java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
         <!--table是指定每个表的生成策略-->
-        <table tableName="user" domainObjectName="User"></table>
+        <table tableName="users" domainObjectName="Users" schema="hhxx"></table>
 
     </context>
 </generatorConfiguration>
