@@ -17,3 +17,9 @@ logging:
   level:
     com.gms.user.dao : debug
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # * 在yaml 文件属于关键字，所以需要加引号
+
