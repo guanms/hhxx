@@ -3,6 +3,7 @@ package com.gms.movie.pojo;
 import java.math.BigDecimal;
 
 public class Users {
+
     private Long id;
 
     private String username;

@@ -26,7 +26,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spring.cloud.version>Camden.SR6</spring.cloud.version>
+    <spring.cloud.version>Finchley.RELEASE</spring.cloud.version>
     <java.version>1.8</java.version>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
@@ -95,50 +95,6 @@
       </plugins>
     </pluginManagement>
   </build>
-  <profiles>
-    <profile>
-      <id>dev</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <properties>
-        <profileActive>dev</profileActive>
-      </properties>
-      <build>
-        <resources>
-          <resource>
-            <directory>src/main/resources</directory>
-          </resource>
-        </resources>
-      </build>
-    </profile>
-    <profile>
-      <id>test</id>
-      <properties>
-        <profileActive>test</profileActive>
-      </properties>
-      <build>
-        <resources>
-          <resource>
-            <directory>src/main/resources</directory>
-          </resource>
-        </resources>
-      </build>
-    </profile>
-    <profile>
-      <id>prod</id>
-      <properties>
-        <profileActive>prod</profileActive>
-      </properties>
-      <build>
-        <resources>
-          <resource>
-            <directory>src/main/resources</directory>
-          </resource>
-        </resources>
-      </build>
-    </profile>
 
-  </profiles>
 
 </project>

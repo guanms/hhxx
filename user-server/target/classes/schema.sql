@@ -15,3 +15,5 @@ INSERT INTO USER (username, name, age, balance) VALUES('account1', '张三', 20,
 INSERT INTO USER (username, name, age, balance) VALUES('account2', '李四', 28, 100.00);
 
 INSERT INTO USER (username, name, age, balance) VALUES('account3', '王五', 32, 100.00);
+
+SET GLOBAL time_zone='+8:00';

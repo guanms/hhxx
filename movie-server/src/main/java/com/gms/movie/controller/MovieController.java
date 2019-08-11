@@ -7,15 +7,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+
 @RestController
 public class MovieController {
+  @Autowired
+  private RestTemplate restTemplate;
 
-    @Autowired
-    private RestTemplate restTemplate;
-
-    @GetMapping("/user/{id}")
-    public Users findById(@PathVariable Long id){
-        return this.restTemplate.getForObject("http://localhost:8000/"+id, Users.class);
-    }
-
+  @GetMapping("/user/{id}")
+  public Users findById(@PathVariable Long id) {
+    return this.restTemplate.getForObject("http://localhost:8000/" + id, Users.class);
+  }
 }
