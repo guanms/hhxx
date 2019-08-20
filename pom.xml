@@ -11,6 +11,9 @@
     <modules>
       <module>movie-server</module>
       <module>user-server</module>
+      <module>eureka-server</module>
+      <module>eureka-ha-server</module>
+      <module>eureka-authenticating</module>
     </modules>
 
     <name>hhxx</name>
