@@ -8,6 +8,14 @@
         <option value="$PROJECT_DIR$/user-server/pom.xml" />
         <option value="$PROJECT_DIR$/movie-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-server-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/movie/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-server-ribbon-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-understanding-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/user-server-my-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-server-ribbon-without-eureka/pom.xml" />
       </list>
     </option>
   </component>
