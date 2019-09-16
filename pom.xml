@@ -9,11 +9,16 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-      <module>movie-server</module>
-      <module>user-server</module>
-      <module>eureka-server</module>
-      <module>eureka-ha-server</module>
+      <module>eureka</module>
       <module>eureka-authenticating</module>
+      <module>eureka-ha</module>
+      <module>movie</module>
+      <module>movie-server-ribbon</module>
+      <module>movie-server-ribbon-customizing</module>
+      <module>movie-server-ribbon-without-eureka</module>
+      <module>movie-understanding-metadata</module>
+      <module>user-server</module>
+      <module>user-server-my-metadata</module>
     </modules>
 
     <name>hhxx</name>
