@@ -9,6 +9,8 @@ management:
 spring:
   application:
     name: movie-server
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   client:
