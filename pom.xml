@@ -13,6 +13,7 @@
       <module>eureka-authenticating</module>
       <module>eureka-ha</module>
       <module>movie</module>
+      <module>movie-feign</module>
       <module>movie-server-ribbon</module>
       <module>movie-server-ribbon-customizing</module>
       <module>movie-server-ribbon-without-eureka</module>
